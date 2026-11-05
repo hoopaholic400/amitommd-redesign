@@ -475,3 +475,9 @@ h3 { font-size: 1.35rem; }
   .svc-grid, .quote-grid, .case-strip { grid-template-columns: 1fr; }
   .section { padding: 64px 0; }
 }
+
+/* Temporary home-page announcement bar */
+.announce-bar { background: var(--teal-deep); color: #EAF2EE; text-align: center; padding: 12px 24px; font-size: 0.95rem; }
+.announce-bar p { margin: 0; }
+.announce-bar strong { color: #fff; font-weight: 600; }
+.announce-bar a { color: #fff; text-decoration: underline; text-underline-offset: 3px; white-space: nowrap; margin-left: 6px; }
