@@ -12,7 +12,7 @@ The live website of amitommd.com (Dr. Amit Om — Aryan's cousin; Mohs surgeon, 
 
 - Surgical gallery on the *original* site is placeholder content (same 3 photos for all 19 cases) — only one real case exists; it's the one used here.
 - Scroll-reveal `.rv` elements are hidden only under `html.js` — don't remove the `classList.add('js')` line in `main.js`.
-- Contact stats sourced from the old site's animated counters: 23 publications, 9 state licenses, 27,194 telemedicine patients.
+- Stats: 23 publications; telemedicine updated Nov 2026 to 38,000+ virtual patients and 19 state licenses (AL, CA, CT, FL, GA, IL, IN, MA, MI, MO, NC, NE, NJ, NY, OH, PA, SC, TX, WI). The old site's counters said 9 states / 27,194 patients.
 
 ## Remaining
 
