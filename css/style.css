@@ -476,8 +476,8 @@ h3 { font-size: 1.35rem; }
   .section { padding: 64px 0; }
 }
 
-/* Temporary home-page announcement bar */
-.announce-bar { background: var(--teal-deep); color: #EAF2EE; text-align: center; padding: 12px 24px; font-size: 0.95rem; }
-.announce-bar p { margin: 0; }
-.announce-bar strong { color: #fff; font-weight: 600; }
-.announce-bar a { color: #fff; text-decoration: underline; text-underline-offset: 3px; white-space: nowrap; margin-left: 6px; }
+/* Temporary home-page announcement callout */
+.announce-callout { display: inline-block; max-width: 100%; margin: 0 0 22px; padding: 12px 18px; font-size: 0.95rem; line-height: 1.45;
+  background: var(--teal-tint); border: 1px solid var(--teal); border-left-width: 4px; border-radius: 10px; color: var(--ink); }
+.announce-callout strong { font-weight: 600; }
+.announce-callout a { color: var(--teal-deep); font-weight: 600; text-decoration: underline; text-underline-offset: 3px; white-space: nowrap; margin-left: 4px; }
