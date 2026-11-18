@@ -6,13 +6,14 @@ The live website of amitommd.com (Dr. Amit Om — Aryan's cousin; Mohs surgeon, 
 - Plain static HTML/CSS + `js/main.js`. No build step — edit, commit, push to deploy.
 - Repo must stay **public** (free-plan Pages requirement). Don't delete the `CNAME` file or the domain unbinds.
 - DNS stays at Hostinger (registrar + Titan email — MX/SPF/DKIM records must never be touched). Apex A → 185.199.108–111.153, `www` CNAME → arluigi.github.io.
-- `AUDIT.md` = critique of the old WordPress site (rendered at `/audit.html`, noindex); `STYLE-GUIDE.md` = design tokens/voice rules.
+- `STYLE-GUIDE.md` = design tokens/voice rules. (The old-site audit, AUDIT.md/audit.html, was removed 2026-11-18.)
+- `wp-content/uploads/2023/11/Mohs-Surgery-Handout.pdf` is a copy of `files/mohs-surgery-handout.pdf` kept so old WordPress links still work.
 
 ## Gotchas
 
 - Surgical gallery on the *original* site is placeholder content (same 3 photos for all 19 cases) — only one real case exists; it's the one used here.
 - Scroll-reveal `.rv` elements are hidden only under `html.js` — don't remove the `classList.add('js')` line in `main.js`.
-- Stats: 23 publications; telemedicine updated Nov 2026 to 38,000+ virtual patients and 32 state licenses (AL, AR, AZ, CA, CO, CT, FL, GA, IA, IL, IN, KY, LA, MA, MD, MI, MN, MO, NC, NE, NJ, NV, NY, OH, OK, PA, SC, TN, TX, UT, WA, WI). The old site's counters said 9 states / 27,194 patients.
+- Stats: 23 publications; Fellow of AAD (FAAD) and ACMS (FACMS); founder of The Med 5 (themed5.com), which includes The Derm 5; telemedicine updated Nov 2026 to 38,000+ virtual patients and 32 state licenses (AL, AR, AZ, CA, CO, CT, FL, GA, IA, IL, IN, KY, LA, MA, MD, MI, MN, MO, NC, NE, NJ, NV, NY, OH, OK, PA, SC, TN, TX, UT, WA, WI). The old site's counters said 9 states / 27,194 patients.
 
 ## Remaining
 
