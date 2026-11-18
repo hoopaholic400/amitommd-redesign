@@ -104,6 +104,8 @@
         "Mohs micrographic surgery",
         "Skin cancer",
         "Skin cancer screening",
+        "Basal cell carcinoma",
+        "Squamous cell carcinoma",
         "Dermatology",
         "Dermatologic surgery",
         "Facial reconstruction"
@@ -114,10 +116,36 @@
       ]
     },
     {
+      "@type": "Physician",
+      "@id": "https://amitommd.com/#physician",
+      "name": "Dr. Amit Om, MD — Mohs Surgery & Dermatology",
+      "url": "https://amitommd.com/",
+      "image": "https://amitommd.com/img/dr-om-portrait.png",
+      "description": "Double board-certified dermatologist and fellowship-trained Mohs micrographic surgeon seeing patients at Piedmont Plastic Surgery & Dermatology in Charlotte, NC, starting December 2026.",
+      "medicalSpecialty": "https://schema.org/Dermatology",
+      "telephone": "+1-704-344-8846",
+      "parentOrganization": { "@id": "https://amitommd.com/#ppsd" },
+      "employee": { "@id": "https://amitommd.com/#person" },
+      "areaServed": { "@type": "City", "name": "Charlotte" },
+      "address": [
+        { "@type": "PostalAddress", "streetAddress": "309 S. Sharon Amity Road, Suite 200", "addressLocality": "Charlotte", "addressRegion": "NC", "postalCode": "28211", "addressCountry": "US" },
+        { "@type": "PostalAddress", "streetAddress": "5815 Blakeney Park Drive, Suite 100", "addressLocality": "Charlotte", "addressRegion": "NC", "postalCode": "28277", "addressCountry": "US" }
+      ],
+      "availableService": { "@type": "MedicalProcedure", "name": "Mohs micrographic surgery", "url": "https://amitommd.com/mohs-surgery-charlotte.html" }
+    },
+    {
       "@type": "MedicalBusiness",
       "@id": "https://amitommd.com/#ppsd",
       "name": "Piedmont Plastic Surgery & Dermatology",
+      "alternateName": "PPSD",
       "telephone": "+1-704-344-8846",
+      "medicalSpecialty": ["https://schema.org/Dermatology", "https://schema.org/PlasticSurgery"],
+      "areaServed": {
+        "@type": "City",
+        "name": "Charlotte",
+        "containedInPlace": { "@type": "State", "name": "North Carolina" }
+      },
+      "employee": { "@id": "https://amitommd.com/#person" },
       "location": [
         {
           "@type": "Place",
