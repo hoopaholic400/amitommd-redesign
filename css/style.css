@@ -481,3 +481,7 @@ h3 { font-size: 1.35rem; }
   background: var(--teal-tint); border: 1px solid var(--teal); border-left-width: 4px; border-radius: 10px; color: var(--ink); }
 .announce-callout strong { font-weight: 600; }
 .announce-callout a { color: var(--teal-deep); font-weight: 600; text-decoration: underline; text-underline-offset: 3px; white-space: nowrap; margin-left: 4px; }
+
+/* Two-column card grid (Mohs reconstruction options) */
+.svc-grid.two-up { grid-template-columns: repeat(2, 1fr); }
+@media (max-width: 720px) { .svc-grid.two-up { grid-template-columns: 1fr; } }
