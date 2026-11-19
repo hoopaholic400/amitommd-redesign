@@ -485,3 +485,10 @@ h3 { font-size: 1.35rem; }
 /* Two-column card grid (Mohs reconstruction options) */
 .svc-grid.two-up { grid-template-columns: repeat(2, 1fr); }
 @media (max-width: 720px) { .svc-grid.two-up { grid-template-columns: 1fr; } }
+
+/* Button group (About: research links) */
+.btn-row { display: flex; gap: 14px; flex-wrap: wrap; align-items: center; }
+
+/* Society logos with a role caption (About: fellowships & memberships) */
+.logo-item { margin: 0; display: flex; flex-direction: column; align-items: center; gap: 10px; }
+.logo-item figcaption { font-family: var(--mono); font-size: 0.75rem; letter-spacing: 0.06em; text-transform: uppercase; color: var(--ink-2); }
