@@ -492,3 +492,20 @@ h3 { font-size: 1.35rem; }
 /* Society logos with a role caption (About: fellowships & memberships) */
 .logo-item { margin: 0; display: flex; flex-direction: column; align-items: center; gap: 10px; }
 .logo-item figcaption { font-family: var(--mono); font-size: 0.75rem; letter-spacing: 0.06em; text-transform: uppercase; color: var(--ink-2); }
+
+/* Signed personal note (home: PPSD announcement) */
+.note-sign { font-family: var(--display); font-style: italic; font-size: 1.15rem; color: var(--teal); margin-top: 4px; }
+
+/* Affiliate disclosure (For Patients: skincare) */
+.disclosure { font-size: 0.82rem; color: var(--ink-2); margin-top: 10px; max-width: 70ch; }
+
+/* Three-stat row (Consulting) */
+.stat-row.three-up { grid-template-columns: repeat(3, 1fr); }
+@media (max-width: 720px) { .stat-row.three-up { grid-template-columns: 1fr; } }
+
+/* Tablet header: keep nav on one line so it doesn't overflow (721–940px) */
+@media (max-width: 940px) {
+  .nav-phone { display: none; }
+  .nav-links { gap: 18px; }
+  .nav-links a { white-space: nowrap; }
+}
